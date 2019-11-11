@@ -1,7 +1,7 @@
 /*
 * Purpose: Test Program for the Signal Hound spectrum analyzer
 * Author: SignalHound, modified by: Kurt Burdick
-* date modified: 9-3-19
+* date modified: 9-24-19
 */
 
 #include "sa_api.h"
