@@ -53,9 +53,6 @@ spectrum
 newData <- data.frame(newData)
 newData
 
-# need this?
-radio_Data
-
 # spectrum after fft conversion to magnitude
 spectrum_plot <- ggplot(newData, aes(x = rowCount, y = spectrum)) + geom_line() + 
   ggtitle("Spectrum Radio Data Plot") + xlab("Span Data") + ylab("Spectrum Data")
